@@ -1,3 +1,3 @@
 # Hyundai_NGV
-## Expertise Improvement in Robot Driving Control Technology
+## Improving Expertise in Robot Driving Control Technology
 ### Practice Session
