@@ -1,0 +1,9 @@
+roscore
+rosrun gazebo_ros gazebo
+roslaunch turtlebot3_description spawn_turtlebot3.launch
+roslaunch junny_control junny_control.launch
+(rosrun turtlebot3_teleop turtlebot3_teleop_key)
+rosrun udp_base wpl_publisher
+(rostopic echo wplist)
+rosrun turtle_control con_turtle.py
+

@@ -1,0 +1,8 @@
+<launch>
+
+  <node name="usv_udp_comm" pkg="kaist_usv_con" type="usv_udp_comm" output="screen">
+        <param name="ip_address" value="192.168.0.6" />
+  </node>
+
+
+</launch>
